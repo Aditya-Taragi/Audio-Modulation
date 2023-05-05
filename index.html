@@ -6,22 +6,32 @@
   </head>
   <body>
     <div class="container">
-      <h1>Audio Modulator</h1>
-      <input type="file" id="fileInput">
-      <audio id="audio" controls>
-        <source src="" type="audio/mpeg">
-      </audio>
-      <div class="sliders">
-        <div class="slider">
-          <label for="volumeSlider">Volume:</label>
-          <input type="range" id="volumeSlider" min="0" max="100" value="50">
+      <h1>Audio Player</h1>
+      <div class="audio-controls">
+        <div class="audio-details">
+          <p class="audio-title">Title of Audio</p>
         </div>
-        <div class="slider">
-          <label for="speedSlider">Speed:</label>
-          <input type="range" id="speedSlider" min="0.5" max="2" step="0.1" value="1">
+        <div class="audio-player">
+          <audio controls>
+            <source src="" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="sliders">
+          <div class="slider">
+            <label for="volumeSlider">Volume:</label>
+            <input type="range" id="volumeSlider" min="0" max="100" value="50">
+          </div>
+          <div class="slider">
+            <label for="speedSlider">Speed:</label>
+            <input type="range" id="speedSlider" min="0.5" max="2" step="0.1" value="1">
+          </div>
+        </div>
+        <button id="resetButton">Reset</button>
+        <div class="audio-upload">
+          <label for="fileInput">Upload Audio:</label>
+          <input type="file" id="fileInput" accept=".mp3">
         </div>
       </div>
-      <button id="resetButton">Reset</button>
     </div>
     <script src="script.js"></script>
   </body>
