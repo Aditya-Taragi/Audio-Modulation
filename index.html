@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Audio Modulator</h1>
+      <input type="file" id="fileInput">
+      <audio id="audio" controls>
+        <source src="" type="audio/mpeg">
+      </audio>
+      <div class="sliders">
+        <div class="slider">
+          <label for="volumeSlider">Volume:</label>
+          <input type="range" id="volumeSlider" min="0" max="100" value="50">
+        </div>
+        <div class="slider">
+          <label for="speedSlider">Speed:</label>
+          <input type="range" id="speedSlider" min="0.5" max="2" step="0.1" value="1">
+        </div>
+      </div>
+      <button id="resetButton">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

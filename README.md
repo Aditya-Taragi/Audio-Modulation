@@ -1,2 +1,13 @@
-# Audio-Modulation
- This is a Flask web application that allows users to upload an audio file and modulate it by changing its speed or amplitude. The application uses the PyDub library to perform the audio processing, and the modulated audio file is returned to the user as a downloadable file. 
+# Audio Player Website
+
+This is a website that allows you to play audio and control the amplitude and frequency using sliders.
+
+## Usage
+
+1. Clone the repository: `git clone https://github.com/your-username/website.git`
+2. Open `index.html` in your web browser.
+3. Use the sliders to control the amplitude and frequency of the audio.
+
+## Requirements
+
+- Web browser with HTML5 support.
