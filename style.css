@@ -1,30 +1,49 @@
 body {
-  background-image: url("https://pixabay.com/get/g31bf5a54314ec9c7e53539f5a65e1b77ce98e7484954467d35302e7c0eb8bbd97ddc8c342dfb1e8efe7d40b707b33835e95f1346024aba18fbd31c1c6a166e1f679ebd2bab3593849c7b758fdb5a629c_1280.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: #f2f2f2;
   font-family: Arial, sans-serif;
+  font-family: Righteous, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  height: 100vh;
+  background-image: url(sign.jpeg.jpg);
+  
 }
 
 .container {
   max-width: 500px;
+  max-height: 100%;
   margin: 0 auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
+  background-color: #fff;
+  border-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+
+  color:rgb(247, 253, 250);
+  /* background-color: grey; */
+  background-image: url(sign.webp);
+  border: 2px solid magenta;
+ 
+  
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
 }
 
 audio {
   display: block;
-  width: 400px;
-  margin: 20px 0;;
+  margin: 20px auto;
+  width: 100%;
 }
 
+input[type="file"] {
+  margin-bottom: 10px;
+}
 
 .slider {
   margin-bottom: 10px;
@@ -52,22 +71,35 @@ input[type="range"]::-webkit-slider-thumb {
   appearance: none;
   width: 20px;
   height: 20px;
-  background-color: #333;
+  background-color: magenta;
   border-radius: 50%;
 }
 
 button {
   display: block;
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 10px 20px;
-  background-color: #333;
+  background-color:rgb(8, 192, 253);
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  border-radius: 10px;
 }
 
 button:hover {
-  background-color: #666;
+  background-color: magenta;
 }
+
+h1:hover {
+  color: magenta;
+}
+
+
+button {
+  font-family: Righteous, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
